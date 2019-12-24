@@ -7,13 +7,13 @@
     Swiper,
     Navigation,
     Pagination
-  } from 'swiper/dist/js/swiper.esm.js';
+  } from 'swiper/js/swiper.esm.js';
 
   // Install modules
   Swiper.use([Navigation, Pagination]);
 
   import Thumbnail from './Thumbnail.vue';
-  require('../../node_modules/swiper/dist/css/swiper.min.css');
+  require('../../node_modules/swiper/css/swiper.min.css');
 
   const template = `
     <div class="vimeography-thumbnail-container" v-observe-visibility="visibilityChanged">
@@ -152,31 +152,31 @@
 </script>
 
 <style lang="scss" scoped>
-  .vimeography-thumbnail-container {
-    position: relative;
-  }
+.vimeography-thumbnail-container {
+  position: relative;
+}
 
-  .swiper-slide {
-    flex-shrink: 0;
-    height: 100%;
-    width: auto;
-    position: relative;
-  }
+.swiper-slide {
+  flex-shrink: 0;
+  height: 100%;
+  width: auto;
+  position: relative;
+}
 
-  .swiper-button-prev,
-  .swiper-button-next {
-    cursor: pointer;
-    width: 12px;
-    height: 20px;
-    margin-top: -10px;
-    background-size: 12px 20px;
-  }
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+  width: 12px;
+  height: 20px;
+  margin-top: -10px;
+  background-size: 12px 20px;
+}
 
-  .swiper-button-prev {
-    left: -20px;
-  }
+.swiper-button-prev {
+  left: -20px;
+}
 
-  .swiper-button-next {
-    right: -20px;
-  }
+.swiper-button-next {
+  right: -20px;
+}
 </style>

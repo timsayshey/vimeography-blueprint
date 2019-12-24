@@ -40,7 +40,7 @@
     "@babel/runtime": "^7.0.0-beta.32",
     "lodash": "^4.17.4",
     "url-search-params": "^0.10.0",
-    "vimeography-blueprint": "https://github.com/davekiss/vimeography-blueprint",
+    "vimeography-blueprint": "https://github.com/timsayshey/vimeography-blueprint",
     "vue": "^2.3.4",
     "vue-lazyload": "^1.2.6",
     "vue-observe-visibility": "^0.3.1",
